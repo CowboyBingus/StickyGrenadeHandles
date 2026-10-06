@@ -1,0 +1,22 @@
+[
+  ".gitattributes",
+  ".gitignore",
+  "CHANGELOG.md",
+  "INSTALL.txt",
+  "LICENSE",
+  "README.md",
+  "docs/RELEASE_NOTES.md",
+  "docs/TECHNICAL.md",
+  "publication-files.json",
+  "scripts/build.py",
+  "src/bingus_memory.lua",
+  "src/bingus_runtime.lua",
+  "src/bingus_write.lua",
+  "src/sticky_grenade_handles.lua",
+  "tests/compile_entry.lua",
+  "tests/frame_budget.lua",
+  "tests/game_lua.py",
+  "tests/hostile_vm.lua",
+  "tests/test_entry.lua",
+  "tests/test_mod.lua"
+]

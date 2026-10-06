@@ -1,0 +1,16 @@
+Sticky Grenade Handles v1.0
+Supports Helldivers 2 Steam build 25480438 / EXE 1.8.46015.0.
+
+Install Bingus Shared Loader v18 or newer and import this ZIP into Arsenal or
+HD2MM. Enable and deploy both, then restart Helldivers 2.
+
+What it changes: the G-123 Thermite and the sticky stun grenade stick when their
+handle hits first, instead of bouncing off. One value per game session; the
+handle's friction and bounce stay as they are, and nothing runs per frame.
+
+On any other game build it does nothing and says so in the log:
+%LOCALAPPDATA%/CowboyBingus/Helldivers2/Logs/StickyGrenadeHandles.log
+
+To remove it, disable or remove it in the mod manager.
+
+https://github.com/CowboyBingus/BingusSharedLoader/releases/latest
