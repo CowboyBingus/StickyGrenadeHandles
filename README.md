@@ -1,4 +1,4 @@
-# Sticky Grenade Handles v1.0
+# Sticky Grenade Handles v1.0.1
 
 The G-123 Thermite sticks when its handle hits first, instead of bouncing off. The sticky stun grenade, which is
 built the same way, gets the same fix.
@@ -64,7 +64,7 @@ python scripts/build.py
 
 It runs the tests in LuaJIT and in the game's own `lua51.dll` (the game is never started), checks that the
 vendored [Bingus Shared Runtime](https://github.com/CowboyBingus/BingusSharedRuntime) files are byte-identical to
-the canonical ones when the workspace has them, and writes `releases/Sticky-Grenade-Handles-v1.0.zip`.
+the canonical ones when the workspace has them, and writes `releases/Sticky-Grenade-Handles-v1.0.1.zip`.
 
 ## License
 

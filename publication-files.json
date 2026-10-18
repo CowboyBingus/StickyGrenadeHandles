@@ -17,6 +17,7 @@
   "tests/frame_budget.lua",
   "tests/game_lua.py",
   "tests/hostile_vm.lua",
+  "tests/reference/sticky_grenade_handles.lua",
   "tests/test_entry.lua",
   "tests/test_mod.lua"
 ]

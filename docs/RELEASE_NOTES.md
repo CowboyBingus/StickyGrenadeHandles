@@ -1,7 +1,1 @@
-- The G-123 Thermite and the sticky stun grenade stick when their handle hits first, instead of bouncing off.
-- One 4-byte change per game session: the handle's physics material gets the canister's sticky tag; friction, bounce and everything else stay as they are.
-- Checked against build 25480438's data before the write, and read back after it; nothing runs per frame afterwards.
-- Played in missions with the change in place throughout; a handle-first hit has not been captured in a log yet.
-- Measured in live play: 0.001 ms per frame in missions and on the ship.
-- Steam build 25480438 only; requires Bingus Shared Loader v18 or newer.
-- Licensed under the Zero-Clause BSD license (0BSD).
+- The mod's per-frame code no longer makes the game's Lua compiler retry compiling it every frame; such retries from many mods kept the game recompiling indefinitely.
